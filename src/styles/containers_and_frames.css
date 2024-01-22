@@ -14,13 +14,16 @@
 /* game div with background image*/
 .framed {
   /* border */
+
   border-style: solid;
   border-image-source: url("../assets/rpg/border-image.png");
   border-image-repeat: repeat;
-  border-image-slice: 6 6 6 6;
+  border-image-slice:  6 6 6;
   border-image-width: 18px;
   border-width: 15px;
   padding: 12px;
+ 
+
 
   /* internal border */
   box-sizing: border-box;
@@ -64,9 +67,11 @@
   border-image-source: url("../assets/rpg/border-image-golden2.png");
   border-image-repeat: repeat;
   border-image-slice: 8 8 8 8;
-  border-image-width: 18px;
-  border-width: 15px;
-  padding: 12px;
+  border-image-width: 24px;
+  border-width: 24px;
+  padding: 15px;
+  float: left;
+  height: 100vh;
 
   /* internal border */
   box-sizing: border-box;
