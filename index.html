@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yu Gi Oh!  Jo-Ken-Po Edition</title>
     <!-- Reset styles -->
-    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/reset.css"> 
 
     <!-- framework e buttons -->
     <link rel="stylesheet" href="./src/styles/buttons.css">
@@ -13,23 +13,28 @@
 
     <!-- main styles css -->
     <link rel="stylesheet" href="./src/styles/main.css">
-
+    
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="./src/assets/favicon/Favicon.ico" type="image/x-icon">
+
 </head>
 
 <body>
-
+    <audio id="backgroundmusic" loop>
+        <source src="./src/assets/audios/egyptian_duel.mp3" type="audio/mp3">
+    </audio>
     <div class="bg_video">
         <video class="video" autoplay loop muted>
             <source src="./src/assets/video/yugi.mp4" type="video/mp4"/>
         </video>
     </div>
     
-    <div class="container ">
+    <div class="container">
         <div class="container_left framed-golden-2">
             <div class="score_box">
                 <span id="score_win">WIN : 0 </span> <br><br>
@@ -41,8 +46,8 @@
             </div>
 
             <div class="card_details">
-                <p id="card_name">a</p>
-                <p id="card_type">a</p>
+                <p id="card_name">SELECIONE</p>
+                <p id="card_type">UMA CARTA.</p>
             </div>
 
         </div>
